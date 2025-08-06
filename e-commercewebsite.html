@@ -1,13 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Responsive Navbar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>e-Commercewebsite</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+<style>
+
+</style>
+
+
 <body>
+  <input type="checkbox" id="dark-toggle-checkbox" />
   <nav class="navbar">
     <div class="logo">MySite</div>
     <ul class="nav-links" id="navLinks">
@@ -19,17 +25,10 @@
     <div class="hamburger" id="hamburger">
       ☰
     </div>
+    <label for="dark-toggle-checkbox" class="dark-toggle">🌙</label>
   </nav>
-  
+  <script src="script.js"></script>
 
-  
-  <script>
-    const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('navLinks');
-
-    hamburger.addEventListener('click', () => {
-      navLinks.classList.toggle('active');
-    });
-  </script>
 </body>
+
 </html>
