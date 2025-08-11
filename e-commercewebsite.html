@@ -2,44 +2,189 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>e-Commercewebsite</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
-<style> 
-
-</style>
-
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+  integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <body>
-  <input type="checkbox" id="dark-toggle-checkbox" />
-  <nav class="navbar">
-    <div class="logo">MySite</div>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <div class="hamburger" id="hamburger">
-      ☰
-    
-    <label for="dark-toggle-checkbox" class="dark-toggle">🌙</label>   </div>
-  </nav>
-    ☰ All
-  <div class="sidebar">
-      ☰     
+
+<!-- header -->
+  <header>
+    <div class="header">
+      <div class="logo">
+        <img height="90" src="amazon.logo.png" alt="Logo">
+      </div>
+      <div class="location">
+        <p class="para1">Deliver to Meerut 250002</p>
+        <a class="loction" href="https://share.google/1AYUDTWatHhPcmxDr">
+          <h3 class="update"> <i class="fa-solid fa-location-dot update"></i> Upadate loction</h3>
+        </a>
+      </div>
+      <div class="search">
+
+        <select class="All">
+          <option value="All"> All</option>
+          <option value="text">All Categories</option>
+          <option value="text">Alexa Skills</option>
+          <option value="Electronics">Amazon Device</option>
+          <option value="Fashion"> Amazon Fashion</option>
+          <option value="text">Amazon Fresh</option>
+          <option value="text">Amazon Pharmacy</option>
+          <option value="text">Appliances</option>
+          <option value="text">Apps & Games</option>
+          <option value="text">Audible Audiobooks</option>
+          <option value="text">Baby</option>
+          <option value="text">Beauty</option>
+          <option value="Book">Books</option>
+          <option value="text">Car & Motorbike</option>
+          <option value="text">Clothing & Accessories</option>
+          <option value="text">Deals</option>
+          <option value="Electronics">Electronics</option>
+          <option value="Funiture">Funiture</option>
+          <option value="text">Garden & Outdoor</option>
+          <option value="Cards">Gift Cards</option>
+          <option value="grocery">Grocery & Gourmet Foods</option>
+          <option value="text">Health & Personal care</option>
+          <option value="text">Home & Kitchen</option>
+          <option value="text">Industrial & Scientific</option>
+          <option value="text">Jewellery</option>
+          <option value="text">kindle store</option>
+          <option value="text">Luggage & Bags</option>
+          <option value="text">Luxury Beauty</option>
+          <option value="text">Musical Instruments</option>
+          <option value="text">Movies & TV Shows</option>
+          <option value="text">Office Products</option>
+          <option value="text">Pet Products</option>
+          <option value="text">Prime Video</option>
+          <option value="text">Software</option>
+          <option value="text">Sports, Fitness & Outdoors</option>
+          <option value="text">Shoes & Handbags</option>
+          <option value="text">Subscribe & Save</option>
+          <option value="text">Tools & Home Improvment</option>
+          <option value="text">Watches</option>
+          <option value="text">Toys & Games</option>
+          <option value="text">Video Games</option>
+          <option value="text">Under 500</option>
+        </select>
+
+        <input class="inputt" type="text" placeholder="  Search Amazon.in">
+        <button class="search-btn">
+          <i class="fa-solid fa-magnifying-glass glass"></i>
+        </button>
+
+      </div>
+      <div class="language">
+        <select class="lang">
+          <option value="English"> English-EN</option>
+          <option value="Hindi">हिंदी-HI</option>
+          <option value="Bengali">বাংলা-BN</option>
+          <option value="Telugu">తెలుగు-TE</option>
+          <option value="Marathi">मराठी-MR</option>
+          <option value="Tamil">தமிழ்-TA</option>
+          <option value="Urdu">اردو-UR</option>
+          <option value="Gujarati">ગુજરાતી GR</option>
+          <option value="Malayalam">മലയാളം ML</option>
+
+        </select>
+      </div>
+
+
+      <div class="helo">
+        <div class="login">
+          <a href="https://share.google/1AYUDTWatHhPcmxDr">
+            <p class="para2">Hello, Sign in</p>
+            <h4 class="para3">Account & Lists</h4>
+          </a>
+        </div>
+        <div class="orders">
+          <a href="https://share.google/1AYUDTWatHhPcmxDr">
+            <p class="para4">Returns</p>
+            <h4 class="para5">& Orders</h4>
+          </a>
+        </div>
+        <div class="cart">
+          <a href="https://share.google/1AYUDTWatHhPcmxDr">
+            <i class="fa-solid fa-cart-shopping shopping"></i>
+            <span class="cart-count">Cart</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+<!-- navbar -->
+  <div class="nav">
     <ul>
-      <li><a href="#">Dashboard</a></li>
-      <li><a href="#">Orders</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Customers</a></li>
-    </ul>     
+
+      <li><a href="#"> <i class="fa-solid fa-bars"></i></a></li>
+      <li><a href="#">All</a></li>
+      <!-- <li><a href="#">Fresh</a></li> -->
+      <li><a href="#">MX Player</a></li>
+      <!-- <li><a href="#">Sell</a></li> -->
+      <li><a href="#">Bestsellers</a></li>
+      <li><a href="#">Today's Deals</a></li>
+      <li><a href="#">Mobiles</a></li>
+
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Prime</a>
+        <div class="dropdown-content">
+          <div class="prime-card">
+            <h2>Shopping plans</h2>
+            <h2>starting at 399/year</h2>
+            <p>Get free same/1-day delivery, prime Office & more.</p>
+            <div class="prime-girl">
+              <img src="girl-image.png" alt="">
+            </div>
+            <div>
+              <button class="prime-btn">Join Prime</button>
+            </div>
+            <div class="amazon-prime"><img height="20px" src="amazon.pime.png" alt=""></div>
+          </div>
+        </div>
+      </li>
+      <li><a href="#">Customer Service</a></li>
+      <li><a href="#">Electronics</a></li>
+      <li><a href="#">Fashion</a></li>
+      <li><a href="#">New Releases</a></li>
+      <li><a href="#">Home & Kitchen</a></li>
+      <li><a href="#">Amazon Pay</a></li>
+      <li><a href="#">Computers</a></li>
+    </ul>
+
+  </div>
+
+
+
+  <!-- sidebar -->
+
+  <!-- <div class="sidebar">
+    <div class="sidebar-content">
+      <div class="sidebar-header">
+       
+        <h3 class="" >Hello, Sign in</h3>
+      </div>
+      <ul class="sidebar-menu">
+        <h3>Trending</h3>
+        <li><a href="#"><i class="fa-solid fa-user"></i> Your Account</a></li>
+        <li><a href="#"><i class="fa-solid fa-box"></i> Orders</a></li>
+        <li><a href="#"><i class="fa-solid fa-heart"></i> Wish List</a></li>
+        <li><a href="#"><i class="fa-solid fa-gift"></i> Gift Cards</a></li>
+        <li><a href="#"><i class="fa-solid fa-cog"></i> Settings</a></li>
+        <li><a href="#"><i class="fa-solid fa-sign-out"></i> Sign Out</a></li>
+      </ul>
+      <div class="sidebar-footer">
+        <p style="color:#232f3e; font-size:13px; margin-top:32px;">© 2025 Amazon Clone</p>
+      </div>
+    </div> -->
+
+
   <script src="script.js"></script>
-
- 
-
 </body>
 
 </html>
